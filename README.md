@@ -17,4 +17,4 @@ coordinates and displays it accordingly using canvas js (example rain drops anim
 1), 2) & 4) are based on frontend while 3) is made using both frontend and backend.
 
 For running 3) locally after downloading the zip file, the server has to be started in the terminal and the prescence of mongo db database is also required.
-Robo 3T/Postman is not required as frontend for handling the requests can be done using the app itself.
+Robo 3T/Postman is not required as frontend for making the requests is handled in the app itself.

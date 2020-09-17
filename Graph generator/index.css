@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Sen&display=swap');
+*{
+    margin:0;
+    box-sizing: border-box;
+    color:#fff;
+    font-family: 'Sen';
+    user-select: none;
+    
+}
+canvas{
+    display: block;
+    margin:0 auto;
+    position: relative;
+    top:0;
+    left:0;
+    width: 95vw;
+    height: 95vh;
+    transform:scaleY(-1);
+    background-color:  rgb(23, 37, 56);
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+#zoom{
+    color:#000;
+    margin-right:50px;
+    margin-top:40px;
+    height:50px;
+    background-color: rgb(234, 208, 255);
+    padding:10px;
+}
+#instructions,#instructions h3{
+    color:#000;
+}
+
+label{
+    color:#000;
+    margin-left: 10px;
+}
+.func-box{
+    margin:10px 0;
+}
+.func{
+    border:none;
+    border-bottom:2px solid blue;
+    width: 30vw;
+    color:#000;
+    outline:none;
+    padding:10px 20px;
+}
+.trig-func,#add-graph,#graph{
+    margin:10px 2.5px;
+    margin-left: 5px;
+    border:none;
+    border-radius: 15px;
+    background-color: rgb(255, 52, 103);
+    padding:5px 30px;
+    outline:none;
+    cursor: pointer;
+}
+.color-picker{
+    width: 10vw;
+    border:none;
+    margin-left: 5px;
+    outline:none;
+    padding:5px 20px;
+    background-color:rgb(38, 29, 70);
+    border-radius:10px;
+}
+#add-graph{
+    background-color: rgb(35, 150, 245);
+}
+#graph{
+    margin-left: 50px;
+    width: 25vw;
+    font-size:1.1em;
+    background-color: rgb(20, 211, 100);
+}
